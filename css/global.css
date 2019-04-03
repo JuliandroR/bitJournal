@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Playball');
+
+body, header, main, footer, h2, section, div, button {
+    margin: 0;
+    padding: 0;
+}
+
+body, header, main, footer {
+    width: 100%;
+}
+
+body {
+    background: #D7CEC7;
+    font-family: sans-serif;
+}
+
+header {
+    height: 8vh;
+    position: fixed;
+    top: 0;
+}
+
+header h2 {
+    font-size: 5vh;
+    width: 100%;
+    text-align: center;
+    padding-top: 1vh;
+    font-family: 'Playball', cursive;
+}
+
+footer{
+    height: 6vh;
+    color: #D7CEC7;
+    background: #233237;
+}
+
+footer h2{
+    width: 100%;
+    font-size: 2.5vh;
+    padding-top: 1.5vh;
+    text-align: center;
+}
