@@ -2,10 +2,11 @@
 
 
 
-body, header, main, footer, h2, h3, p, section, div, button {
+body, header, main, footer, h2, h3, p, section, div, a {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    user-select: none
 }
 
 header, main, footer {
@@ -28,7 +29,7 @@ header h3{
     font-size: 2.5vh;
     margin: 0;
     padding: 0;
-    margin-top: 5vh;
+    margin-top: 3.5vh;
     text-align: center;
     font-family: 'PT Sans', sans-serif;
 }
@@ -46,7 +47,7 @@ header h2 {
 
 main{
     height: 92vh;
-    margin-top: 8vh;
+    margin-top: 10vh;
 }
 
 .background-start{
@@ -56,15 +57,15 @@ main{
     background-position: center;
     background-size: cover;
     box-sizing: border-box;
-    padding: 11vh 14.5vw;
+    padding-top: 35vh;
+    padding-left: 50vw;
 }
 
 .container-slogan{
-    width: 60vw;
-    height: 40vh;
-    background: rgba(250, 235, 215, 0.7);
-    padding-top: 15vh;
-    border-radius: 10px;
+    width: 30vw;
+    height: 20vh;
+    background: rgba(250, 235, 215, 0.9);
+    padding-top: 1.15vh;
 }
 
 .container-slogan p{
@@ -110,6 +111,12 @@ main{
     display: flex;
     align-content: center;
     align-items: center;
+    margin-top: 10vh;
+    margin-bottom: 5vh;
+
+    background: url('../img/action-adult-analog-1043512.jpg');
+    background-position: center;
+    background-size: cover;
 }
 
 .title-editorial{
@@ -117,6 +124,7 @@ main{
     width: 40%;
     height: 80vh;
     padding-top: 30vh;
+    background: rgba(255, 250, 229, 0.8);
 }
 
 .title-editorial h2{
@@ -127,15 +135,48 @@ main{
 .text-editorial{
     width: 60%;
     height: 80vh;
+    box-sizing: border-box;
+    padding: 2vw;
+    overflow: auto;
+    background: rgba(240, 236, 224, 0.9);
+}
+
+.text-editorial h2{
+    text-align: center;
+    font-size: 2.5vw;
+}
+
+.text-editorial h3{
+    text-align: right;
+    padding-right: 7.5vw;
+    padding-top: 1.5vh;
+    padding-bottom: 5vh;
+    font-size: 0.75vw;
+}
+
+.text-editorial::-webkit-scrollbar { width: 0.5vw; background:#e3e0d600; } /* configurando scroll */
+.text-editorial::-webkit-scrollbar-track { background: #D7CEC7; }
+.text-editorial::-webkit-scrollbar-thumb { border-radius:20px; background:#233237;  }
+
+.text-editorial p {
+    text-align: justify;
+    font-size: 1.15vw;
+    line-height: 5vh;
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+    text-indent: 4vw;
 }
 
 .news{
     width: 85vw;
     height: 85vh;
     display: flex;
+    box-sizing: border-box;
+    padding: 0.5vw;
 
-
-    border-bottom: solid 1px #FFFAE5;
+    border: solid 1px #233237;
+    border-radius: 5px;
+    margin-bottom: 1vh;
 }
 
 .image-news{
@@ -181,6 +222,10 @@ main{
     overflow: auto;
 }
 
+.container-text-news::-webkit-scrollbar { width: 0.5vw; background:#e3e0d600; } /* configurando scroll */
+.container-text-news::-webkit-scrollbar-track { background: #D7CEC7; }
+.container-text-news::-webkit-scrollbar-thumb { border-radius:20px; background:#233237;  }
+
 .container-text-news h2{
     text-align: center;
     font-size: 2.5vw;
@@ -200,6 +245,7 @@ main{
     padding-left: 1.5vw;
     padding-right: 1.5vw;
     text-indent: 4vw;
+    line-height: 4vh;
 }
 
 footer{
