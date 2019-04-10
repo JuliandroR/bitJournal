@@ -20,7 +20,7 @@ body {
 }
 
 header {
-    height: 12vh;
+    height: 16vh;
     width: 85vw;
 }
 
@@ -34,7 +34,7 @@ header h3{
 }
 
 header h2 {
-    font-size: 9vh;
+    font-size: 13vh;
     width: 100%;
     text-align: center;
     padding: 1vh;
@@ -51,23 +51,23 @@ main{
 
 .background-start{
     width: 85vw;
-    height: 65vh;
+    height: 62vh;
     background: url('../img/business-computer-desk-206607.jpg');
     background-position: center;
     background-size: cover;
     box-sizing: border-box;
-    padding: 12vh 14.5vw;
+    padding: 11vh 14.5vw;
 }
 
 .container-slogan{
     width: 60vw;
     height: 40vh;
     background: rgba(250, 235, 215, 0.7);
-    padding-top: 12vh;
+    padding-top: 15vh;
 }
 
 .container-slogan p{
-    font-size: 5vw;
+    font-size: 4vw;
     font-weight: bold;
     text-align: center;
     color: rgb(0, 0, 0);
