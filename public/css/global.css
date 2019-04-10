@@ -159,7 +159,7 @@ main{
     font-size: 0.75vw;
 }
 
-.text-editorial::-webkit-scrollbar { width: 0.5vw; background:#e3e0d600; } /* configurando scroll */
+.text-editorial::-webkit-scrollbar { width: 0.75vw; background:#e3e0d600; } /* configurando scroll */
 .text-editorial::-webkit-scrollbar-track { background: #D7CEC7; }
 .text-editorial::-webkit-scrollbar-thumb { border-radius:20px; background:#233237;  }
 
@@ -181,7 +181,18 @@ main{
 
     border: solid 1px #233237;
     border-radius: 5px;
-    margin-bottom: 1vh;
+}
+
+.pergunta{
+    font-weight: bold;
+    margin-right: 15vw; 
+    margin-bottom: 2vh;
+}
+
+.resposta{
+    margin-left: 18vw; 
+    font-style: italic;
+    margin-bottom: 5vh;
 }
 
 .image-news{
@@ -227,7 +238,7 @@ main{
     overflow: auto;
 }
 
-.container-text-news::-webkit-scrollbar { width: 0.5vw; background:#e3e0d600; } /* configurando scroll */
+.container-text-news::-webkit-scrollbar { width: 0.75vw; background:#e3e0d600; } /* configurando scroll */
 .container-text-news::-webkit-scrollbar-track { background: #D7CEC7; }
 .container-text-news::-webkit-scrollbar-thumb { border-radius:20px; background:#233237;  }
 
