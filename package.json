@@ -1,0 +1,29 @@
+{
+  "name": "bitJournal",
+  "version": "1.0.0",
+  "description": "## Tecnologias Utilizadas - HTML - CSS - JavaScript",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JuliandroR/bitJournal.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JuliandroR/bitJournal/issues"
+  },
+  "homepage": "https://github.com/JuliandroR/bitJournal#readme",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
