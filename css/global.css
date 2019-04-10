@@ -162,15 +162,15 @@ main{
 }
 
 .entrevista{
-    background: url('../img/check-class-desk-7103.jpg');
+    background: url('../img/check-class-desk-7103.jpg') no-repeat;
 }
 
 .cronica{
-    background: url('../img/background-balance-business-583846.jpg');
+    background: url('../img/background-balance-business-583846.jpg') no-repeat;
 }
 
 .artigo{
-    background: url('../img/art-black-and-white-blur-724994.jpg');
+    background: url('../img/art-black-and-white-blur-724994.jpg') no-repeat;
 }
 
 .container-text-news{
